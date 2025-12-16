@@ -1,0 +1,39 @@
+# === mbed build artifacts (生成物は追跡しない) ===
+BUILD/
+mbed-os/BUILD/
+cmake_build/
+
+# === バイナリや一時ファイル ===
+*.bin
+*.hex
+*.elf
+*.map
+*.o
+*.d
+*.obj
+*.log
+*.lst
+
+# === CMake / Make の生成ファイル ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# === IDE関連 ===
+.mbed-studio/
+mbed-studio.json
+.vscode/
+.idea/
+.settings/
+*.launch
+
+# === 古い mbed ツール用ファイル ===
+.mbed
+mbed_settings.py
+mbed_settings.json
+
+# === OSごみファイル ===
+.DS_Store
+Thumbs.db
